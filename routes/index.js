@@ -3,9 +3,17 @@
 var express = require('express'),
     router = express.Router();
 
-/* GET home page. */
+/* GET users listing. */
 router.get('/', function(req, res) {
-  res.render('index');
+    res.render('index');
+});
+
+router.get('/intro', function(req, res) {
+    res.render('intro');
+});
+
+router.get('/story', function(req, res) {
+    res.render('story');
 });
 
 module.exports = router;
