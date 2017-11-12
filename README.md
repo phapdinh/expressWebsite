@@ -8,7 +8,7 @@ Deployed site:
 
 https://ancient-springs-57162.herokuapp.com/
 
-#How to Run
+# How to Run
 
 npm i
 
