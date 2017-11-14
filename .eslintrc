@@ -1,1 +1,6 @@
-{ "extends": "eslint:recommended" }
+{ 
+  "extends": "eslint:recommended",
+  "globals": {
+    "document": true
+   }
+}
