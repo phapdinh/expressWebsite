@@ -16,4 +16,8 @@ router.get('/story', function(req, res) {
     res.render('story');
 });
 
+router.get('/mememaker', function(req, res) {
+    res.render('mememaker');
+});
+
 module.exports = router;
