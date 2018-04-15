@@ -5,15 +5,15 @@ var express = require('express'),
 
 /* GET users listing. */
 router.get('/', function(req, res) {
-    res.render('index');
+    res.render('story');
 });
 
 router.get('/intro', function(req, res) {
     res.render('intro');
 });
 
-router.get('/story', function(req, res) {
-    res.render('story');
+router.get('/index', function(req, res) {
+    res.render('index');
 });
 
 router.get('/mememaker', function(req, res) {
